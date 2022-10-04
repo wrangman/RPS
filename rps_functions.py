@@ -1,3 +1,11 @@
+'''
+RPS_FUNCTIONS.PY: Functions to main game
+
+__author__  = "Johan Wrangö"
+__version__ = "1.3.0"
+__email__   = "johan.wrango@ntig.se"
+'''
+
 def gesture(hand):
     if hand == "ROCK":
         print("""
@@ -49,7 +57,7 @@ def splash_screen(state_of_play):
     if state_of_play == "START":
         print("""
 ~~~~´'{ W E L C O M E   T O }'`~~~~    
- #####.       #####.    ,##### v1.2   
+ #####.       #####.    ,##### v1.3   
  ##¨¨¨##      ##¨¨¨##   ##¨¨¨¨      
  #####¨¨      #####¨¨   ¨#####.    
  ##¨¨¨##      ##¨¨¨      ¨¨¨¨##   

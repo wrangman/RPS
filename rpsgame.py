@@ -1,9 +1,9 @@
 '''
-RPS - ROCK, PAPER, SCISSORS 
-@version: 1.2
-@author: Johan Wrangö
-@date: 2022-09-02
-@description: A nice game against a super-AI RPS-player.
+RPSGAME.PY: RPS - Rock, Paper, Scissors game
+
+__author__  = "Johan Wrangö"
+__version__ = "1.3.0"
+__email__   = "johan.wrango@ntig.se"
 '''
 
 import os
@@ -27,11 +27,11 @@ while True:
     print(bcolors.YELLOW + "___________________________________")
     print("(R)ock, (P)aper, (S)cissors: ")
 
-    while True:                             # Check keystrokes
+    while True:                                 # Check keystrokes
         key_stroke = getwch().upper() 
         
-        if key_stroke == "Q":                 # Quit game
-            print(bcolors.YELLOW, end="")
+        if key_stroke == "Q":                   # Quit game
+            print(bcolors.YELLOW, end="")       
             splash_screen("QUIT")
             print(bcolors.ENDC)                 # Restore default system colors
             time.sleep(2)
