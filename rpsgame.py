@@ -40,7 +40,6 @@ while True:
         if key_stroke in keys:
             break
         
-
     ai_select = random.randint(0, 2)
     human = get_hand(key_stroke)
     ai = get_hand(str(ai_select))
