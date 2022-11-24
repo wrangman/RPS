@@ -25,7 +25,7 @@ keys = ['Q', '0', '1', '2', 'R', 'S', 'P']
 
 while True:
     print(bcolors.YELLOW + "___________________________________")
-    print("(R)ock, (P)aper, (S)cissors: ", end="")
+    print("(R)ock, (P)aper, (S)cissors: ")
 
     while True:                                 # Check keystrokes
         key_stroke = getwch().upper() 
