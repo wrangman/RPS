@@ -77,4 +77,4 @@ while True:
         else:
             print(bcolors.FAIL + bcolors.BOLD + "YOU LOST" + bcolors.ENDC)
             losses += 1
-    print(f"Wins: {str(wins)} | Losses: {losses} | Turns: {plays}")
+    print(f"Wins: {wins} | Losses: {losses} | Turns: {plays}")
